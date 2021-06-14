@@ -33,7 +33,7 @@ namespace EventsAndDelegates
 
 
             fight.StartFight();
-            Console.WriteLine($"Damage delt: {fightStatistics.DamageDealt}");
+            Console.WriteLine($"Damage delt: {Math.Round(fightStatistics.DamageDealt, 2)}");
             Dictionary<Warrior, double> dict = fightStatistics.DamageStatistics;
             foreach (var pair in dict)
             {
