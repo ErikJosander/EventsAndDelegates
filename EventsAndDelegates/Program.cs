@@ -8,6 +8,8 @@ namespace EventsAndDelegates
         public static ShoutOutService shoutOutService = new ShoutOutService();
         static void Main(string[] args)
         {
+            // Compile the code and see who the winner is!
+
             Weapon axe = new Weapon("Axe", 1.2, 10);
             Weapon sword = new Weapon("Sword", 1.0, 12);
 
